@@ -2,6 +2,7 @@ package dev.api.mycinema.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.io.Serial;
 import java.io.Serializable;
@@ -10,6 +11,7 @@ import java.util.Date;
 @Entity
 @Table(name = "movie")
 @Data
+@NoArgsConstructor
 public class MovieModel implements Serializable {
 
     @Serial
